@@ -1,0 +1,55 @@
+/* ==========================================
+    ARTHEMIS CAPITAL - Leadership Page
+    ========================================== */
+
+.leadership-page{background:linear-gradient(180deg,#0b1220 0%,#101a2f 38%,#0b1220 100%)}
+.leadership-hero .hero-bg{background:linear-gradient(90deg,rgba(8,14,28,0.72) 0%,rgba(8,14,28,0.35) 45%,rgba(8,14,28,0.62) 100%),url('../images/image10.jpeg') center/cover no-repeat}
+.leadership-hero-content{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:end;text-align:left}
+.leadership-hero-copy p{margin:0;color:rgba(255,255,255,0.82);max-width:560px}
+.leadership-hero .breadcrumb{margin-top:18px}
+.hero-portrait-frame{justify-self:end;align-self:end;max-width:360px}
+.hero-portrait-frame img{width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(0.95) contrast(1.03)}
+
+.leader-profile{display:grid;grid-template-columns:300px 1fr;gap:50px;align-items:start;background:linear-gradient(180deg,rgba(19,37,69,0.96),rgba(11,18,32,0.96));padding:55px;color:var(--white);margin-top:-34px;position:relative;z-index:2;border:1px solid rgba(198,154,83,0.36);box-shadow:0 20px 60px rgba(0,0,0,0.35)}
+.leader-photo{width:100%;background:linear-gradient(135deg,var(--navy-light),var(--navy-mid));padding:10px;border:1px solid rgba(224,176,106,0.55)}
+.leader-photo img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.leader-info h2{font-size:2.2rem;font-weight:400;margin-bottom:5px}
+.leader-info .title{color:var(--gold-light);font-size:1.8rem;font-weight:400;margin-bottom:24px;font-family:var(--font-heading)}
+.leader-info p{color:rgba(255,255,255,0.84);line-height:1.9;margin-bottom:16px;font-size:1rem}
+
+.prof-bg{padding:70px 0 58px;text-align:left;background:transparent;border-top:1px solid rgba(198,154,83,0.18);border-bottom:1px solid rgba(198,154,83,0.18)}
+.prof-bg h2{font-size:2.1rem;font-weight:400;color:var(--white);margin-bottom:14px}
+.prof-bg > .container > p{color:rgba(255,255,255,0.72);max-width:980px;margin:0 0 26px;font-size:0.98rem;line-height:1.85}
+.experience-logos{display:flex;justify-content:flex-start;gap:18px;flex-wrap:wrap}
+.exp-logo{padding:10px 0;color:var(--gold-bright);font-weight:500;font-size:1rem;background:transparent;border:none}
+
+.stats-section{padding:70px 0;text-align:center;background:transparent}
+.stats-section h2{font-size:2rem;font-weight:400;color:var(--white);margin-bottom:28px}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-bottom:28px}
+.stat-card{background:linear-gradient(180deg,rgba(19,37,69,0.72),rgba(10,18,32,0.82));border:1px solid rgba(198,154,83,0.35);padding:30px 18px;text-align:center;box-shadow:var(--shadow-sm)}
+.stat-card .number{font-size:2rem;color:var(--gold-bright);font-weight:400;margin-bottom:10px;font-family:var(--font-heading)}
+.stat-card .label{font-size:0.9rem;color:rgba(255,255,255,0.8);line-height:1.6}
+
+.leadership-actions{margin:12px 0 26px}
+
+.leadership-notes{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.note-card{padding:24px;text-align:left;background:rgba(10,18,32,0.68);border:1px solid rgba(198,154,83,0.22);box-shadow:var(--shadow-sm)}
+.note-card h3{font-size:1.1rem;font-weight:500;color:var(--gold-light);margin-bottom:10px}
+.note-card p{font-size:0.92rem;color:rgba(255,255,255,0.78);line-height:1.75}
+
+.quote-section{padding:64px 0;background:transparent;border-top:1px solid rgba(198,154,83,0.18)}
+.quote-inner{display:grid;grid-template-columns:160px 1fr;gap:30px;align-items:center;max-width:900px;margin:0 auto}
+.quote-photo img{width:100%;aspect-ratio:1/1;object-fit:cover;border:1px solid rgba(198,154,83,0.3);box-shadow:var(--shadow-md);border-radius:50%}
+.quote-text blockquote{font-size:2rem;font-style:italic;margin-bottom:16px;line-height:1.45;color:var(--white)}
+.quote-text p{font-size:0.98rem;color:rgba(255,255,255,0.74);line-height:1.8;margin-bottom:20px}
+
+@media(max-width:1024px){
+   .stats-grid,.leadership-notes{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:768px){
+   .leadership-hero-content,.leader-profile,.quote-inner{grid-template-columns:1fr}
+   .leader-profile{padding:32px}
+   .hero-portrait-frame{justify-self:center;max-width:280px}
+   .stats-grid,.leadership-notes{grid-template-columns:1fr}
+}

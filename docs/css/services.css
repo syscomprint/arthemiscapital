@@ -1,0 +1,61 @@
+/* ==========================================
+   ARTHEMIS CAPITAL - Services Page
+   ========================================== */
+
+.page-hero{min-height:44vh}
+.page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.56) 0%,rgba(8,14,28,0.24) 32%,rgba(8,14,28,0.48) 70%,rgba(8,14,28,0.76) 100%),url('../images/image10.jpeg') center/cover no-repeat}
+.page-hero-content{padding-bottom:42px}
+.page-hero h1{font-size:3.4rem;text-transform:uppercase;letter-spacing:1px}
+
+.services-stage{position:relative;padding-top:52px;padding-bottom:56px;background:linear-gradient(180deg,#fbf8f4 0%,#ffffff 100%)}
+.services-intro{max-width:900px;margin:0 auto 34px;text-align:center;color:#444956;line-height:1.85}
+
+.services-showcase{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(320px,0.9fr);gap:0;align-items:stretch;border:1px solid rgba(17,28,48,0.08);background:#fff;box-shadow:0 20px 48px rgba(21,19,14,0.12);overflow:hidden}
+.services-primary-list{display:grid;grid-template-columns:1fr;background:linear-gradient(180deg,#ffffff 0%,#faf6f0 100%)}
+.services-visual-stack{display:grid;grid-template-rows:1fr 1fr;min-height:100%}
+.services-visual{min-height:265px;background-size:cover;background-position:center;position:relative}
+.services-visual::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,18,32,0.12),rgba(11,18,32,0.26))}
+.visual-top{background-image:url('../images/image11.jpeg')}
+.visual-bottom{background-image:url('../images/image7.jpeg')}
+
+.services-secondary-list{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}
+
+.service-item{display:flex;gap:18px;align-items:flex-start;background:#fff;transition:var(--transition)}
+.service-item-featured{padding:26px 28px;border-bottom:1px solid rgba(17,28,48,0.08)}
+.service-item-featured:last-child{border-bottom:none}
+.service-item-secondary{padding:24px;border:1px solid rgba(17,28,48,0.08);box-shadow:var(--shadow-sm);background:linear-gradient(180deg,rgba(255,255,255,0.98),rgba(248,242,233,0.96))}
+.service-item:hover{transform:translateX(4px)}
+
+.service-icon{width:52px;height:52px;border:1px solid rgba(198,154,83,0.3);background:linear-gradient(180deg,#17253f,#0b1220);color:var(--gold-light);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:0.86rem;border-radius:50%;box-shadow:var(--shadow-sm);letter-spacing:1px}
+.service-item h3{font-size:1.34rem;font-weight:400;color:#1f2433;line-height:1.3;margin-bottom:10px}
+.service-item p{color:#5c626c;font-size:0.94rem;line-height:1.82}
+
+.services-insight-section{padding-top:34px;background:linear-gradient(180deg,#fff 0%,#f6f0e7 100%)}
+.services-banner{height:210px;margin-bottom:24px;background:linear-gradient(180deg,rgba(11,18,32,0.18),rgba(11,18,32,0.44)),url('../images/image6.jpeg') center/cover no-repeat;border:1px solid rgba(17,28,48,0.08);box-shadow:var(--shadow-md)}
+
+.service-panels{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.service-panel{padding:32px;background:linear-gradient(180deg,rgba(255,255,255,0.98),rgba(247,242,234,0.96));border:1px solid rgba(17,28,48,0.08);box-shadow:var(--shadow-sm)}
+.service-panel h2{font-size:1.6rem;font-weight:400;color:var(--dark-text);margin-bottom:14px}
+.service-panel p{font-size:0.94rem;color:#555c68;line-height:1.85;margin-bottom:18px}
+
+.services-cta{text-align:center;background:linear-gradient(180deg,#162339 0%,#0b1220 100%)}
+
+@media(max-width:1024px){
+  .services-showcase{grid-template-columns:1fr}
+  .services-visual-stack{grid-template-columns:1fr 1fr;grid-template-rows:none}
+  .services-secondary-list{grid-template-columns:1fr}
+}
+
+@media(max-width:768px){
+  .page-hero h1{font-size:2.4rem}
+  .services-stage{padding-top:32px;padding-bottom:40px}
+  .services-intro{margin-bottom:24px}
+  .service-item,
+  .service-item-featured,
+  .service-item-secondary{flex-direction:column}
+  .services-visual-stack{grid-template-columns:1fr}
+  .services-visual{min-height:210px}
+  .service-panels{grid-template-columns:1fr}
+  .service-panel{padding:24px}
+  .services-banner{height:160px}
+}
