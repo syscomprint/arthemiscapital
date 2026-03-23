@@ -8,7 +8,11 @@
 .leadership-hero-copy p{margin:0;color:rgba(255,255,255,0.82);max-width:560px}
 .leadership-hero .breadcrumb{margin-top:18px}
 .hero-portrait-frame{justify-self:end;align-self:end;max-width:360px}
-.hero-portrait-frame img{width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(0.95) contrast(1.03)}
+.hero-portrait-frame img{width:100%;aspect-ratio:4/5;object-fit:contain;filter:saturate(0.95) contrast(1.03)}
+
+.leadership-hero-copy {
+   margin: 0 0 auto;
+}
 
 .leader-profile{display:grid;grid-template-columns:300px 1fr;gap:50px;align-items:start;background:linear-gradient(180deg,rgba(19,37,69,0.96),rgba(11,18,32,0.96));padding:55px;color:var(--white);margin-top:-34px;position:relative;z-index:2;border:1px solid rgba(198,154,83,0.36);box-shadow:0 20px 60px rgba(0,0,0,0.35)}
 .leader-photo{width:100%;background:linear-gradient(135deg,var(--navy-light),var(--navy-mid));padding:10px;border:1px solid rgba(224,176,106,0.55)}
