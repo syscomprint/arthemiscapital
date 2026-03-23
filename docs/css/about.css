@@ -28,9 +28,8 @@
 .work-list-panel{padding-top:28px}
 .work-list{display:grid;gap:24px;max-width:880px}
 .value-item{display:flex;gap:18px;align-items:flex-start}
-.value-bar{width:6px;min-height:78px;background:linear-gradient(180deg,#0f1b33,#23314a);box-shadow:4px 0 18px rgba(19,37,69,0.14);border-radius:0;flex-shrink:0}
-.value-item h4{font-size:1.26rem;color:#2b2a38;line-height:1.35;margin-bottom:8px}
-.value-item p{font-size:0.95rem;color:#5c5b66;line-height:1.8}
+.value-bar{width:3px;min-height:1.5rem;background:linear-gradient(180deg,#0f1b33,#23314a);box-shadow:4px 0 18px rgba(19,37,69,0.14);border-radius:0;flex-shrink:0}
+.value-item h4{font-size:1.1rem;color:#2b2a38;line-height:1.35;margin-bottom:8px}
 
 .mission-section{padding:0 0 42px;background:linear-gradient(180deg,#fff 0%,#f7f2ea 100%)}
 .mission-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
