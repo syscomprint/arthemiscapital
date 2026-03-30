@@ -5,6 +5,7 @@
 
 /* --- Page-level dark override --- */
 .track-page{background:#0b1220;color:rgba(255,255,255,0.85)}
+.track-page .page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.6) 0%,rgba(8,14,28,0.3) 35%,rgba(8,14,28,0.5) 60%,rgba(8,14,28,0.78) 100%),url('../images/image12.jpeg') center/cover no-repeat}
 .track-page .section{background:#0b1220}
 .track-page .section-title{color:var(--white)}
 .track-page .section-subtitle{color:rgba(255,255,255,0.55)}

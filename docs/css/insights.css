@@ -2,14 +2,16 @@
    ARTHEMIS CAPITAL - Insights Page
    ========================================== */
 
+.page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.6) 0%,rgba(8,14,28,0.3) 35%,rgba(8,14,28,0.5) 60%,rgba(8,14,28,0.78) 100%),url('../images/image8.jpeg') center/cover no-repeat}
+
 .insights-intro{max-width:760px}
 .insights-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .insight-card{background:var(--white);border:1px solid var(--light-gray);overflow:hidden;transition:var(--transition);border-radius:4px;display:block}
 .insight-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg);border-color:rgba(200,148,74,0.3)}
-.insight-image{height:120px;background:linear-gradient(180deg,rgba(12,26,50,0.42) 0%,rgba(30,40,55,0.22) 55%,rgba(140,90,40,0.2) 100%),url('../images/image2.jpeg') center/cover no-repeat}
-.insight-image.alt-one{background:linear-gradient(180deg,rgba(12,26,50,0.42) 0%,rgba(30,40,55,0.22) 55%,rgba(140,90,40,0.2) 100%),url('../images/image3.jpeg') center/cover no-repeat}
-.insight-image.alt-two{background:linear-gradient(180deg,rgba(12,26,50,0.42) 0%,rgba(30,40,55,0.22) 55%,rgba(140,90,40,0.2) 100%),url('../images/image4.jpeg') center/cover no-repeat}
-.insight-image.alt-three{background:linear-gradient(180deg,rgba(12,26,50,0.42) 0%,rgba(30,40,55,0.22) 55%,rgba(140,90,40,0.2) 100%),url('../images/image5.jpeg') center/cover no-repeat}
+.insight-image{height:120px;background:linear-gradient(180deg,rgba(12,26,50,0.42) 0%,rgba(30,40,55,0.22) 55%,rgba(140,90,40,0.2) 100%),url('../images/news/arthemiscapital_12.jpeg') center/cover no-repeat}
+.insight-image.alt-one{background:linear-gradient(180deg,rgba(12,26,50,0.42) 0%,rgba(30,40,55,0.22) 55%,rgba(140,90,40,0.2) 100%),url('../images/news/arthemiscapital_10.jpeg') center/cover no-repeat}
+.insight-image.alt-two{background:linear-gradient(180deg,rgba(12,26,50,0.42) 0%,rgba(30,40,55,0.22) 55%,rgba(140,90,40,0.2) 100%),url('../images/news/arthemiscapital_11.jpeg') center/cover no-repeat}
+.insight-image.alt-three{background:linear-gradient(180deg,rgba(12,26,50,0.42) 0%,rgba(30,40,55,0.22) 55%,rgba(140,90,40,0.2) 100%),url('../images/news/arthemiscapital_9.jpeg') center/cover no-repeat}
 .insight-body{padding:18px}
 .insight-body h3{font-size:1rem;font-weight:500;color:var(--dark-text);line-height:1.4;margin-bottom:10px}
 .insight-body p{font-size:0.84rem;color:var(--medium-gray);line-height:1.65}

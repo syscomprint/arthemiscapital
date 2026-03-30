@@ -1,70 +1,81 @@
 /* ==========================================
    ARTHEMIS CAPITAL - Services Page
-   Dark theme (#0b1220)
+   Light layout with showcase images
    ========================================== */
 
-/* --- Page-level dark override --- */
-.services-page{background:#0b1220;color:rgba(255,255,255,0.85)}
-.services-page .section{background:#0b1220}
-.services-page .section-title{color:var(--white)}
-.services-page .section-subtitle{color:rgba(255,255,255,0.55)}
+/* --- Page background: light --- */
+.services-page{background:linear-gradient(180deg,#f7f3ed 0%,#ffffff 12%,#f7f3ed 100%);color:var(--body-text)}
 
-/* --- Hero tweaks --- */
+/* --- Hero --- */
 .services-page .page-hero{min-height:44vh}
-.services-page .page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.56) 0%,rgba(8,14,28,0.24) 32%,rgba(8,14,28,0.48) 70%,rgba(8,14,28,0.76) 100%),url('../images/image10.jpeg') center/cover no-repeat}
+.services-page .page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.56) 0%,rgba(8,14,28,0.24) 32%,rgba(8,14,28,0.48) 70%,rgba(8,14,28,0.76) 100%),url('../images/image6.jpeg') center/cover no-repeat}
 .services-page .page-hero h1{font-size:3.4rem;text-transform:uppercase;letter-spacing:1px}
 
-/* --- Main services section --- */
-.services-main{padding-top:70px;padding-bottom:70px}
+/* --- Intro text --- */
+.services-intro{max-width:820px;margin:0 auto 40px;text-align:center;font-size:0.96rem;color:#555c68;line-height:1.85}
 
-/* --- Services grid --- */
-.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+/* --- Main section --- */
+.services-main{padding-top:60px;padding-bottom:60px}
 
-/* --- Service card --- */
-.service-card{position:relative;padding:36px 34px 34px;background:rgba(255,255,255,0.03);border:1px solid rgba(198,154,83,0.12);transition:var(--transition)}
-.service-card:hover{background:rgba(255,255,255,0.06);border-color:rgba(200,148,74,0.35);transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,0.25)}
+/* --- Showcase: services left + images right --- */
+.services-showcase{display:grid;grid-template-columns:1fr 0.85fr;gap:0;overflow:hidden;border:1px solid rgba(17,28,48,0.08);background:#fff;box-shadow:0 16px 48px rgba(21,19,14,0.10)}
 
-/* Large cards span full width */
-.service-card--large{grid-column:span 1}
+/* --- Services list (left column) --- */
+.services-list{display:flex;flex-direction:column}
 
-/* --- Service number badge --- */
-.service-number{width:46px;height:46px;border-radius:50%;border:1px solid rgba(198,154,83,0.3);background:linear-gradient(180deg,#17253f,#0b1220);color:var(--gold-light);display:flex;align-items:center;justify-content:center;font-size:0.82rem;letter-spacing:1px;margin-bottom:18px;box-shadow:0 2px 10px rgba(0,0,0,0.2)}
+.service-item{display:flex;gap:18px;align-items:flex-start;padding:26px 30px;border-bottom:1px solid rgba(17,28,48,0.07);background:#fff;transition:var(--transition)}
+.service-item:last-child{border-bottom:none}
+.service-item:hover{background:rgba(247,243,237,0.7)}
 
-/* --- Card typography --- */
-.service-card h3{font-size:1.35rem;font-weight:400;color:var(--gold-light);margin-bottom:12px;letter-spacing:0.3px}
-.service-card p{font-size:0.92rem;color:rgba(255,255,255,0.58);line-height:1.8;margin-bottom:10px}
-.service-label{color:rgba(255,255,255,0.45)!important;font-size:0.85rem!important;text-transform:uppercase;letter-spacing:0.6px;margin-top:14px!important;margin-bottom:6px!important}
-.service-closing{color:rgba(255,255,255,0.5)!important;font-style:italic;margin-top:14px!important}
+.service-icon-img{width:42px;height:42px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding-top:2px}
+.service-icon-img img{width:32px;height:32px;object-fit:contain;opacity:0.7}
 
-/* --- Bullet list --- */
-.service-card ul{list-style:none;padding:0;margin:0 0 8px}
-.service-card ul li{position:relative;padding-left:18px;font-size:0.9rem;color:rgba(255,255,255,0.62);line-height:2}
-.service-card ul li::before{content:'';position:absolute;left:0;top:0.72em;width:6px;height:6px;background:var(--gold);border-radius:50%}
+.service-body h3{font-size:1.22rem;font-weight:600;color:var(--dark-text);margin-bottom:8px;letter-spacing:0.2px}
+.service-body p{font-size:0.88rem;color:#6b7280;line-height:1.75;margin:0}
 
-/* --- Bottom panels section --- */
-.services-bottom{background:#0e1729!important}
+/* --- Images (right column) --- */
+.services-images{display:grid;grid-template-rows:1fr 1fr;min-height:100%}
+.services-img{background-size:cover;background-position:center;position:relative;min-height:240px}
+.services-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,18,32,0.08),rgba(11,18,32,0.18))}
+.services-img-top{background-image:url('../images/image11.jpeg')}
+.services-img-bottom{background-image:url('../images/image10.jpeg')}
+
+/* --- Secondary services row --- */
+.services-secondary{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:24px;border:1px solid rgba(17,28,48,0.08);background:#fff;box-shadow:0 8px 30px rgba(21,19,14,0.08)}
+.services-secondary .service-item{border-bottom:none;border-right:1px solid rgba(17,28,48,0.07);flex-direction:column;gap:12px;padding:28px 26px}
+.services-secondary .service-item:last-child{border-right:none}
+
+/* --- Bottom panels --- */
+.services-bottom{background:var(--off-white)!important}
 .services-bottom-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
-.service-panel{padding:34px;background:rgba(255,255,255,0.04);border:1px solid rgba(198,154,83,0.15);border-left:4px solid var(--gold);transition:var(--transition)}
-.service-panel:hover{background:rgba(255,255,255,0.07);border-color:rgba(200,148,74,0.35)}
-.service-panel h2{font-size:1.5rem;font-weight:400;color:var(--white);margin-bottom:14px}
-.service-panel p{font-size:0.94rem;color:rgba(255,255,255,0.55);line-height:1.85;margin-bottom:18px}
+.service-panel{padding:34px;background:#fff;border:1px solid rgba(17,28,48,0.08);border-left:4px solid var(--gold);box-shadow:var(--shadow-sm);transition:var(--transition)}
+.service-panel:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
+.service-panel h2{font-size:1.5rem;font-weight:400;color:var(--dark-text);margin-bottom:14px}
+.service-panel p{font-size:0.94rem;color:#555c68;line-height:1.85;margin-bottom:18px}
 
-/* --- CTA section --- */
-.services-cta{text-align:center;background:linear-gradient(180deg,#162339 0%,#0b1220 100%)!important}
-
-/* --- Footer override --- */
-.services-page .site-footer{border-top-color:rgba(198,154,83,0.3)}
+/* --- CTA --- */
+.services-cta{text-align:center;background:linear-gradient(180deg,#162339 0%,#0b1220 100%)!important;color:var(--white)}
+.services-cta .section-title{color:var(--white)}
+.services-cta .section-subtitle{color:rgba(255,255,255,0.55)}
 
 /* --- Responsive --- */
 @media(max-width:1024px){
-  .services-grid{grid-template-columns:1fr}
+  .services-showcase{grid-template-columns:1fr}
+  .services-images{grid-template-columns:1fr 1fr;grid-template-rows:auto}
+  .services-img{min-height:220px}
+  .services-secondary{grid-template-columns:1fr}
+  .services-secondary .service-item{border-right:none;border-bottom:1px solid rgba(17,28,48,0.07)}
+  .services-secondary .service-item:last-child{border-bottom:none}
 }
 
 @media(max-width:768px){
   .services-page .page-hero h1{font-size:2.4rem}
-  .services-main{padding-top:40px;padding-bottom:40px}
-  .services-grid{grid-template-columns:1fr}
-  .service-card{padding:28px 24px}
+  .services-main{padding-top:36px;padding-bottom:36px}
+  .services-intro{margin-bottom:28px}
+  .service-item{flex-direction:column;gap:10px;padding:22px 20px}
+  .services-images{grid-template-columns:1fr}
+  .services-img{min-height:180px}
+  .services-secondary{grid-template-columns:1fr}
   .services-bottom-grid{grid-template-columns:1fr}
   .service-panel{padding:26px}
 }

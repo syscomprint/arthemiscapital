@@ -37,9 +37,9 @@
 .transaction-card > *{position:relative;z-index:1}
 .transaction-card .amount{font-size:2rem;font-weight:700;margin-bottom:4px}
 .transaction-card .desc{font-size:1rem;line-height:1.35;color:rgba(255,255,255,0.9)}
-.card-port{background-image:url('../images/image2.jpeg')}
-.card-highway{background-image:url('../images/image3.jpeg')}
-.card-debt{background-image:url('../images/image4.jpeg')}
+.card-port{background-image:url('../images/news/arthemiscapital_3.jpeg')}
+.card-highway{background-image:url('../images/news/arthemiscapital_4.jpeg')}
+.card-debt{background-image:url('../images/news/arthemiscapital_5.jpeg')}
 .card-epc{background-image:url('../images/image5.jpeg')}
 
 .why-section{padding:56px 0;background:linear-gradient(180deg,#162339 0%,#0b1220 100%);color:var(--white)}

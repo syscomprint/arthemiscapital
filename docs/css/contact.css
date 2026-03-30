@@ -2,6 +2,8 @@
    ARTHEMIS CAPITAL - Contact Page
    ========================================== */
 
+.page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.6) 0%,rgba(8,14,28,0.3) 35%,rgba(8,14,28,0.5) 60%,rgba(8,14,28,0.78) 100%),url('../images/image7.jpeg') center/cover no-repeat}
+
 .contact-layout{display:grid;grid-template-columns:1.05fr 0.95fr;gap:0;align-items:stretch;background:linear-gradient(180deg,#162339 0%,#0b1220 100%);border:1px solid rgba(198,154,83,0.25);box-shadow:var(--shadow-lg);overflow:hidden}
 .contact-panel,.office-panel{padding:38px;background:transparent;border:none;box-shadow:none}
 .office-panel{border-left:1px solid rgba(198,154,83,0.18)}

@@ -3,7 +3,7 @@
     ========================================== */
 
 .leadership-page{background:linear-gradient(180deg,#0b1220 0%,#101a2f 38%,#0b1220 100%)}
-.leadership-hero .hero-bg{background:linear-gradient(90deg,rgba(8,14,28,0.72) 0%,rgba(8,14,28,0.35) 45%,rgba(8,14,28,0.62) 100%),url('../images/image10.jpeg') center/cover no-repeat}
+.leadership-hero .hero-bg{background:linear-gradient(90deg,rgba(8,14,28,0.72) 0%,rgba(8,14,28,0.35) 45%,rgba(8,14,28,0.62) 100%),url('../images/image9.jpeg') center/cover no-repeat}
 .leadership-hero-content{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:end;text-align:left}
 .leadership-hero-copy p{margin:0;color:rgba(255,255,255,0.82);max-width:560px}
 .leadership-hero .breadcrumb{margin-top:18px}

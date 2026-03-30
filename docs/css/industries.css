@@ -5,6 +5,7 @@
 
 /* --- Page-level dark override --- */
 .industries-page{background:#0b1220;color:rgba(255,255,255,0.85)}
+.industries-page .page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.6) 0%,rgba(8,14,28,0.3) 35%,rgba(8,14,28,0.5) 60%,rgba(8,14,28,0.78) 100%),url('../images/news/arthemiscapital_8.jpeg') center/cover no-repeat}
 .industries-page .section{background:#0b1220}
 .industries-page .section-light{background:#0e1729}
 .industries-page .section-title{color:var(--white)}
