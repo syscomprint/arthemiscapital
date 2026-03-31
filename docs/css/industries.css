@@ -1,32 +1,70 @@
 /* ==========================================
    ARTHEMIS CAPITAL - Industries Page
-   Dark theme (#0b1220)
+   Light layout aligned with services page
    ========================================== */
 
-/* --- Page-level dark override --- */
-.industries-page{background:#0b1220;color:rgba(255,255,255,0.85)}
-.industries-page .page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.6) 0%,rgba(8,14,28,0.3) 35%,rgba(8,14,28,0.5) 60%,rgba(8,14,28,0.78) 100%),url('../images/news/arthemiscapital_8.jpeg') center/cover no-repeat}
-.industries-page .section{background:#0b1220}
-.industries-page .section-light{background:#0e1729}
-.industries-page .section-title{color:var(--white)}
-.industries-page .section-subtitle{color:rgba(255,255,255,0.55)}
+/* --- Page background --- */
+.industries-page{background:linear-gradient(180deg,#f7f3ed 0%,#ffffff 12%,#f7f3ed 100%);color:var(--body-text)}
 
-/* --- Industries Grid --- */
-.industries-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
-.industry-panel{padding:30px;background:rgba(255,255,255,0.04);border:1px solid rgba(198,154,83,0.15);box-shadow:none;transition:var(--transition)}
-.industry-panel:hover{transform:translateY(-4px);box-shadow:0 4px 20px rgba(0,0,0,0.3);border-color:rgba(200,148,74,0.45);background:rgba(255,255,255,0.07)}
-.industry-panel h3{font-size:1.2rem;font-weight:500;color:var(--gold-light);margin-bottom:12px}
-.industry-panel p{font-size:0.92rem;color:rgba(255,255,255,0.6);line-height:1.75}
+/* --- Hero --- */
+.industries-page .page-hero{min-height:44vh}
+.industries-page .page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.56) 0%,rgba(8,14,28,0.24) 32%,rgba(8,14,28,0.48) 70%,rgba(8,14,28,0.76) 100%),url('../images/news/arthemiscapital_8.jpeg') center/cover no-repeat}
+.industries-page .page-hero h1{font-size:3.4rem;text-transform:uppercase;letter-spacing:1px}
 
-/* --- Support Cards --- */
+/* --- Intro text --- */
+.industries-intro{max-width:860px;margin:0 auto 40px;text-align:center;font-size:0.96rem;color:#555c68;line-height:1.85}
+
+/* --- Main section --- */
+.industries-main{padding-top:60px;padding-bottom:60px}
+
+/* --- Industries list --- */
+.industries-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+
+.industry-item{display:grid;grid-template-columns:minmax(0,60%) minmax(0,40%);gap:0;align-items:stretch;overflow:hidden;border:1px solid rgba(17,28,48,0.08);background:linear-gradient(180deg,#ffffff 0%,#fbfaf8 100%);box-shadow:0 14px 42px rgba(21,19,14,0.09);transition:transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease}
+.industry-item:hover{transform:translateY(-3px);box-shadow:0 20px 48px rgba(21,19,14,0.14);border-color:rgba(198,154,83,0.3)}
+
+.industry-photo{order:2;overflow:hidden;background:#edf0f4;min-height:180px}
+.industry-photo img{display:block;width:100%;height:100%;min-height:180px;object-fit:cover;transition:transform 0.45s ease}
+.industry-item:hover .industry-photo img{transform:scale(1.04)}
+
+.industry-copy{order:1;display:flex;gap:18px;align-items:flex-start;padding:10px;position:relative}
+.industry-copy::before{content:'';position:absolute;top:0;left:0;width:5px;height:100%;background:linear-gradient(180deg,var(--gold),rgba(198,154,83,0.18))}
+
+.industry-icon-img{width:54px;height:54px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#f7f1e7 0%,#f0e3cf 100%);border:1px solid rgba(198,154,83,0.24)}
+.industry-icon-img img{width:28px;height:28px;object-fit:contain;opacity:0.8;filter:brightness(0) saturate(100%) invert(21%) sepia(19%) saturate(855%) hue-rotate(182deg) brightness(92%) contrast(95%)}
+
+.industry-body{max-width:680px}
+.industry-body h3{font-size:1.36rem;font-weight:600;color:var(--dark-text);margin-bottom:10px;letter-spacing:0.2px}
+.industry-body p{font-size:0.92rem;color:#5f6673;line-height:1.8;margin:0}
+
+/* --- Bottom panels --- */
+.industries-bottom{background:var(--off-white)!important}
 .industries-support{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
-.support-card{padding:32px;background:rgba(255,255,255,0.04);border:1px solid rgba(198,154,83,0.15);border-left:4px solid var(--gold);box-shadow:none}
-.support-card h2{font-size:1.45rem;font-weight:400;color:var(--white);margin-bottom:12px}
-.support-card p{font-size:0.94rem;color:rgba(255,255,255,0.55);line-height:1.8}
+.support-card{padding:34px;background:#fff;border:1px solid rgba(17,28,48,0.08);border-left:4px solid var(--gold);box-shadow:var(--shadow-sm);transition:var(--transition)}
+.support-card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
+.support-card h2{font-size:1.5rem;font-weight:400;color:var(--dark-text);margin-bottom:14px}
+.support-card p{font-size:0.94rem;color:#555c68;line-height:1.85;margin-bottom:0}
 
-/* --- Footer override for dark page --- */
-.industries-page .site-footer{border-top-color:rgba(198,154,83,0.3)}
+/* --- CTA --- */
+.industries-cta{text-align:center;background:linear-gradient(180deg,#162339 0%,#0b1220 100%)!important;color:var(--white)}
+.industries-cta .section-title{color:var(--white)}
+.industries-cta .section-subtitle{color:rgba(255,255,255,0.55)}
+
+/* --- Responsive --- */
+@media(max-width:1024px){
+  .industries-list{grid-template-columns:1fr}
+  .industry-item{grid-template-columns:minmax(0,60%) minmax(0,40%)}
+}
 
 @media(max-width:768px){
-  .industries-grid,.industries-support{grid-template-columns:1fr}
+  .industries-page .page-hero h1{font-size:2.4rem}
+  .industries-main{padding-top:36px;padding-bottom:36px}
+  .industries-intro{margin-bottom:28px}
+  .industry-item{grid-template-columns:1fr;gap:12px;padding:20px}
+  .industry-photo,.industry-photo img{min-height:160px}
+  .industry-copy{gap:12px}
+  .industry-copy{padding:22px 20px 18px}
+  .industry-copy::before{width:100%;height:4px;top:0;left:0;right:auto}
+  .industries-support{grid-template-columns:1fr}
+  .support-card{padding:26px}
 }

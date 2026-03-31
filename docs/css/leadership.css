@@ -43,7 +43,7 @@
 
 .quote-section{padding:64px 0;background:transparent;border-top:1px solid rgba(198,154,83,0.18)}
 .quote-inner{display:grid;grid-template-columns:160px 1fr;gap:30px;align-items:center;max-width:900px;margin:0 auto}
-.quote-photo img{width:100%;aspect-ratio:1/1;object-fit:cover;border:1px solid rgba(198,154,83,0.3);box-shadow:var(--shadow-md);border-radius:50%}
+.quote-photo img{width:100%;aspect-ratio:1/1;border:1px solid rgba(198,154,83,0.3);box-shadow:var(--shadow-md);border-radius:50%}
 .quote-text blockquote{font-size:2rem;font-style:italic;margin-bottom:16px;line-height:1.45;color:var(--white)}
 .quote-text p{font-size:0.98rem;color:rgba(255,255,255,0.74);line-height:1.8;margin-bottom:20px}
 
