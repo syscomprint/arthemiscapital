@@ -16,13 +16,14 @@
 .hero-buttons-centered{display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
 
 .trusted-section{padding:58px 0;background:#fff;border-bottom:1px solid rgba(17,28,48,0.08)}
-.trusted-section .section-title{font-size:1.9rem;margin-bottom:10px}
+.trusted-section .section-title{font-size:1.9rem;margin-bottom:10px;}
 .trusted-section .section-subtitle{margin-bottom:26px}
 .logo-row{display:flex;justify-content:center;align-items:center;gap:32px;flex-wrap:wrap}
 .logo-item{padding:8px 12px;display:flex;align-items:center;justify-content:center;opacity:0.96}
 .logo-item img{max-height:58px;width:auto}
 
 .flow-section{position:relative;padding:76px 0;background:url('../images/image12.jpeg') center/cover no-repeat;border-top:1px solid rgba(17,28,48,0.08);border-bottom:1px solid rgba(17,28,48,0.08)}
+.flow-section .section-title { color: white; }
 .flow-diagram{display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:26px}
 .flow-box{padding:14px 28px;min-width:320px;text-align:center;font-weight:600;letter-spacing:0.3px;box-shadow:var(--shadow-sm)}
 .flow-box-light{background:#fff;border:1px solid rgba(17,28,48,0.1);color:var(--dark-text)}
