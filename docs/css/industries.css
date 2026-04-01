@@ -9,7 +9,7 @@
 /* --- Hero --- */
 .industries-page .page-hero{min-height:44vh}
 .industries-page .page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.56) 0%,rgba(8,14,28,0.24) 32%,rgba(8,14,28,0.48) 70%,rgba(8,14,28,0.76) 100%),url('../images/news/arthemiscapital_8.jpeg') center/cover no-repeat}
-.industries-page .page-hero h1{font-size:3.4rem;text-transform:uppercase;letter-spacing:1px}
+.industries-page .page-hero h1{font-size:3.4rem}
 
 /* --- Intro text --- */
 .industries-intro{max-width:860px;margin:0 auto 40px;text-align:center;font-size:0.96rem;color:#555c68;line-height:1.85}
