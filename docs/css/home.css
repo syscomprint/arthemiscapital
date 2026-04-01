@@ -33,7 +33,7 @@
 .flow-box{padding:10px 28px;min-width:320px;text-align:center;font-weight:600;letter-spacing:0.3px;box-shadow:var(--shadow-sm)}
 .flow-box-light{background:#fff;border:1px solid rgba(17,28,48,0.1);color:var(--dark-text)}
 .flow-box-dark{background:var(--navy);color:var(--white);border:1px solid rgba(198,154,83,0.25)}
-.flow-arrow{width:3.5px;height:8px;background:var(--white);position:relative}
+.flow-arrow{width:3.5px;height:4px;background:var(--white);position:relative}
 .flow-arrow::after{content:'';position:absolute;left:60%;bottom:-4px;transform:translateX(-50%);border-left:5px solid transparent;border-right:5px solid transparent;border-top:8px solid var(--white)}
 
 .transactions-section{padding:50px 0;background:#fff}
