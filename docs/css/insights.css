@@ -2,7 +2,7 @@
    ARTHEMIS CAPITAL - Insights Page
    ========================================== */
 
-.page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.6) 0%,rgba(8,14,28,0.3) 35%,rgba(8,14,28,0.5) 60%,rgba(8,14,28,0.78) 100%),url('../images/image8.jpeg') center/cover no-repeat}
+.page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.6) 0%,rgba(8,14,28,0.3) 35%,rgba(8,14,28,0.5) 60%,rgba(8,14,28,0.78) 100%),url('../images/news/Insights.jpeg') center/cover no-repeat}
 
 .insights-intro{max-width:760px}
 .insights-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}

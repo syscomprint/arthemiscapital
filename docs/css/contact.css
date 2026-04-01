@@ -2,29 +2,33 @@
    ARTHEMIS CAPITAL - Contact Page
    ========================================== */
 
-.page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.6) 0%,rgba(8,14,28,0.3) 35%,rgba(8,14,28,0.5) 60%,rgba(8,14,28,0.78) 100%),url('../images/image7.jpeg') center/cover no-repeat}
+.page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.6) 0%,rgba(8,14,28,0.3) 35%,rgba(8,14,28,0.5) 60%,rgba(8,14,28,0.78) 100%),url('../images/news/Contact.jpeg') center/cover no-repeat}
 
-.contact-layout{display:grid;grid-template-columns:1.05fr 0.95fr;gap:0;align-items:stretch;background:linear-gradient(180deg,#162339 0%,#0b1220 100%);border:1px solid rgba(198,154,83,0.25);box-shadow:var(--shadow-lg);overflow:hidden}
-.contact-panel,.office-panel{padding:38px;background:transparent;border:none;box-shadow:none}
-.office-panel{border-left:1px solid rgba(198,154,83,0.18)}
-.contact-panel h2,.office-panel h2{font-size:1.9rem;font-weight:400;color:var(--white);margin-bottom:14px}
-.contact-panel p{color:rgba(255,255,255,0.72);margin-bottom:24px;line-height:1.75}
+.contact-layout{display:grid;grid-template-columns:1.05fr 0.95fr;gap:0;align-items:stretch;background:var(--white);border:1px solid rgba(198,154,83,0.22);box-shadow:var(--shadow-lg);overflow:hidden}
+.contact-panel,.office-panel{padding:38px;background:var(--white);border:none;box-shadow:none}
+.office-panel{background:linear-gradient(180deg,#fcfaf6 0%,#f7f3ed 100%);border-left:1px solid rgba(198,154,83,0.16)}
+.contact-panel h2,.office-panel h2{font-size:1.9rem;font-weight:400;color:var(--dark-text);margin-bottom:14px}
+.contact-panel p{color:var(--body-text);margin-bottom:24px;line-height:1.75}
 
 .contact-form{display:grid;gap:18px}
 .contact-form label{display:grid;gap:8px}
-.contact-form span{font-size:0.8rem;text-transform:uppercase;letter-spacing:1.2px;color:var(--gold-light)}
-.contact-form input,.contact-form textarea{width:100%;padding:14px 16px;border:1px solid rgba(255,255,255,0.16);font:inherit;color:var(--white);background:rgba(255,255,255,0.05)}
-.contact-form input::placeholder,.contact-form textarea::placeholder{color:rgba(255,255,255,0.45)}
-.contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:var(--gold);background:rgba(255,255,255,0.08)}
+.contact-form span{font-size:0.8rem;text-transform:uppercase;letter-spacing:1.2px;color:var(--gold-dark)}
+.contact-form input,.contact-form textarea{width:100%;padding:14px 16px;border:1px solid rgba(19,37,69,0.12);font:inherit;color:var(--dark-text);background:#fcfaf7}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:rgba(58,58,74,0.5)}
+.contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:var(--gold);background:var(--white);box-shadow:0 0 0 3px rgba(198,154,83,0.12)}
 .contact-panel .btn-dark{background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--navy-dark)}
 
-.office-item{padding:18px 0;border-bottom:1px solid rgba(255,255,255,0.1)}
+.office-item{padding:18px 0;border-bottom:1px solid rgba(19,37,69,0.08)}
 .office-item:last-child{border-bottom:none;padding-bottom:0}
 .office-item h3{font-size:0.84rem;text-transform:uppercase;letter-spacing:1.2px;color:var(--gold-dark);margin-bottom:8px}
-.office-item p,.office-item a{font-size:0.94rem;color:rgba(255,255,255,0.82);line-height:1.75}
-.office-item a:hover{color:var(--gold-light)}
+.office-item p,.office-item a{font-size:0.94rem;color:var(--body-text);line-height:1.75}
+.office-item a:hover{color:var(--gold-dark)}
+
+.office-map{margin-top:18px;border:1px solid rgba(198,154,83,0.18);box-shadow:var(--shadow-md);overflow:hidden}
+.office-map iframe{display:block;width:100%;height:280px;border:0}
 
 @media(max-width:768px){
   .contact-layout{grid-template-columns:1fr}
   .office-panel{border-left:none;border-top:1px solid rgba(198,154,83,0.18)}
+  .office-map iframe{height:240px}
 }

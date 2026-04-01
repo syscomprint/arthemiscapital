@@ -8,7 +8,7 @@
 
 /* --- Hero --- */
 .services-page .page-hero{min-height:44vh}
-.services-page .page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.56) 0%,rgba(8,14,28,0.24) 32%,rgba(8,14,28,0.48) 70%,rgba(8,14,28,0.76) 100%),url('../images/image6.jpeg') center/cover no-repeat}
+.services-page .page-hero .hero-bg{background:linear-gradient(180deg,rgba(8,14,28,0.56) 0%,rgba(8,14,28,0.24) 32%,rgba(8,14,28,0.48) 70%,rgba(8,14,28,0.76) 100%),url('../images/news/services.jpeg') center/cover no-repeat}
 .services-page .page-hero h1{font-size:3.4rem;text-transform:uppercase;letter-spacing:1px}
 
 /* --- Intro text --- */

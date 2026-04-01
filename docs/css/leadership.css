@@ -4,19 +4,14 @@
 
 .leadership-page{background:linear-gradient(180deg,#0b1220 0%,#101a2f 38%,#0b1220 100%)}
 .leadership-hero .hero-bg{background:linear-gradient(90deg,rgba(8,14,28,0.72) 0%,rgba(8,14,28,0.35) 45%,rgba(8,14,28,0.62) 100%),url('../images/image9.jpeg') center/cover no-repeat}
-.leadership-hero-content{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:end;text-align:left}
-.leadership-hero-copy p{margin:0;color:rgba(255,255,255,0.82);max-width:560px}
+.leadership-hero-content{margin: auto;text-align:center}
+.leadership-hero-copy{max-width:760px;margin:0 auto}
+.leadership-hero-copy p{margin:0 auto;color:rgba(255,255,255,0.82);max-width:680px}
 .leadership-hero .breadcrumb{margin-top:18px}
-.hero-portrait-frame{justify-self:end;align-self:end;max-width:360px}
-.hero-portrait-frame img{width:100%;aspect-ratio:4/5;object-fit:contain;filter:saturate(0.95) contrast(1.03)}
 
-.leadership-hero-copy {
-   margin: 0 0 auto;
-}
-
-.leader-profile{gap:50px;align-items:start;background:linear-gradient(180deg,rgba(19,37,69,0.96),rgba(11,18,32,0.96));padding:55px;color:var(--white);margin-top:30px;position:relative;z-index:2;border:1px solid rgba(198,154,83,0.36);box-shadow:0 20px 60px rgba(0,0,0,0.35)}
-.leader-photo{width:100%;background:linear-gradient(135deg,var(--navy-light),var(--navy-mid));padding:10px;border:1px solid rgba(224,176,106,0.55)}
-.leader-photo img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.leader-profile{display:grid;grid-template-columns:minmax(240px,320px) minmax(0,1fr);gap:50px;align-items:center;background:linear-gradient(180deg,rgba(19,37,69,0.96),rgba(11,18,32,0.96));padding:55px;color:var(--white);margin-top:30px;position:relative;z-index:2;border:1px solid rgba(198,154,83,0.36);box-shadow:0 20px 60px rgba(0,0,0,0.35)}
+.leader-photo{width:100%;max-width:280px;background:radial-gradient(circle at top,rgba(255,255,255,0.16),rgba(255,255,255,0.03) 46%,rgba(8,14,28,0.12) 100%),linear-gradient(135deg,var(--navy-light),var(--navy-mid));padding:18px 18px 0;border:1px solid rgba(224,176,106,0.55);display:flex;align-items:flex-end;justify-content:center;align-self:start}
+.leader-photo img{width:100%;max-width:290px;aspect-ratio:4/5;object-fit:contain;object-position:center bottom;display:block;filter:saturate(0.98) contrast(1.02)}
 .leader-info h2{font-size:2.2rem;font-weight:400;margin-bottom:5px}
 .leader-info .title{color:var(--gold-light);font-size:1.8rem;font-weight:400;margin-bottom:24px;font-family:var(--font-heading)}
 .leader-info p{color:rgba(255,255,255,0.84);line-height:1.9;margin-bottom:16px;font-size:1rem}
@@ -42,8 +37,9 @@
 .note-card p{font-size:0.92rem;color:rgba(255,255,255,0.78);line-height:1.75}
 
 .quote-section{padding:64px 0;background:transparent;border-top:1px solid rgba(198,154,83,0.18)}
-.quote-inner{display:grid;grid-template-columns:160px 1fr;gap:30px;align-items:center;max-width:900px;margin:0 auto}
-.quote-photo img{width:100%;aspect-ratio:1/1;border:1px solid rgba(198,154,83,0.3);box-shadow:var(--shadow-md);border-radius:50%}
+.quote-inner{display:grid;grid-template-columns:300px 1fr;gap:30px;align-items:center;max-width:900px;margin:0 auto}
+.quote-photo{width:300px;height:300px;border-radius:50%;overflow:hidden;background:radial-gradient(circle at 50% 18%,rgba(255,255,255,0.18),rgba(255,255,255,0.04) 44%,rgba(11,18,32,0.38) 100%);border:1px solid rgba(198,154,83,0.3);box-shadow:var(--shadow-md);display:flex;align-items:center;justify-content:center}
+.quote-photo img{width:100%;height:100%;object-fit:cover;object-position:center 18%;border-radius:50%;display:block}
 .quote-text blockquote{font-size:2rem;font-style:italic;margin-bottom:16px;line-height:1.45;color:var(--white)}
 .quote-text p{font-size:0.98rem;color:rgba(255,255,255,0.74);line-height:1.8;margin-bottom:20px}
 
@@ -52,8 +48,10 @@
 }
 
 @media(max-width:768px){
-   .leadership-hero-content,.leader-profile,.quote-inner{grid-template-columns:1fr}
-   .leader-profile{padding:32px}
-   .hero-portrait-frame{justify-self:center;max-width:280px}
+   .leadership-hero-content{padding:96px 20px 40px}
+   .leader-profile,.quote-inner{grid-template-columns:1fr}
+   .leader-profile{padding:32px;text-align:center;gap:28px}
+   .quote-photo{width:220px;height:220px;margin:0 auto}
+   .leader-photo{max-width:260px;margin:0 auto;padding:16px 16px 0;min-height:auto}
    .stats-grid,.leadership-notes{grid-template-columns:1fr}
 }
