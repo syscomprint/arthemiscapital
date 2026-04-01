@@ -11,12 +11,11 @@
 .hero-tagline{font-size:1.5rem;color:var(--gold-bright);margin-top:14px;font-style:italic;text-shadow:0 3px 18px rgba(0,0,0,0.26)}
 .hero-stats-bar{width:100%;max-width:1040px;background:rgba(16,26,43,0.78);border:1px solid rgba(255,255,255,0.14);border-radius:0}
 .hero-stats{display:grid;grid-template-columns:repeat(4,1fr)}
-.hero-stat{padding:16px 18px 14px 18px;font-size:0.98rem;color:rgba(255,255,255,0.9);border-right:1px solid rgba(255,255,255,0.12);text-align:center;line-height:1.45}
+.hero-stat{padding:16px 18px 14px 18px;font-size:0.75rem;color:rgba(255,255,255,0.9);border-right:1px solid rgba(255,255,255,0.12);text-align:center;line-height:1.45}
 .hero-stat-content{display:inline-block;position:relative;max-width:100%;padding-bottom:6px}
 .hero-stat-content::after{content:'';position:absolute;left:0;right:0;bottom:0;height:1.5px;background:rgba(255,255,255,0.45)}
 .hero-stat:last-child{border-right:none}
-.hero-stat strong{display:block;color:var(--white);font-size:1.6rem;margin-bottom:4px}
-.hero-buttons-centered{display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
+.hero-buttons-centered{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}
 
 .trusted-section{padding:58px 0;background:#fff;border-bottom:1px solid rgba(17,28,48,0.08)}
 .trusted-section .section-title{font-size:1.9rem;margin-bottom:10px;}
