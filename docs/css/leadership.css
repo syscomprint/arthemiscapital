@@ -10,7 +10,7 @@
 .leadership-hero .breadcrumb{margin-top:18px}
 
 .leader-profile{display:grid;grid-template-columns:minmax(240px,320px) minmax(0,1fr);gap:50px;align-items:center;background:linear-gradient(180deg,rgba(19,37,69,0.96),rgba(11,18,32,0.96));padding:55px;color:var(--white);margin-top:30px;position:relative;z-index:2;border:1px solid rgba(198,154,83,0.36);box-shadow:0 20px 60px rgba(0,0,0,0.35)}
-.leader-photo{width:100%;max-width:280px;background:radial-gradient(circle at top,rgba(255,255,255,0.16),rgba(255,255,255,0.03) 46%,rgba(8,14,28,0.12) 100%),linear-gradient(135deg,var(--navy-light),var(--navy-mid));padding:18px 18px 0;border:1px solid rgba(224,176,106,0.55);display:flex;align-items:flex-end;justify-content:center;align-self:start}
+.leader-photo{width:100%;max-width:280px;background:radial-gradient(circle at top,rgba(255,255,255,0.16),rgba(255,255,255,0.03) 46%,rgba(8,14,28,0.12) 100%),linear-gradient(135deg,var(--navy-light),var(--navy-mid));border:1px solid rgba(224,176,106,0.55);display:flex;align-items:flex-end;justify-content:center;align-self:start}
 .leader-photo img{width:100%;aspect-ratio:4/5;object-fit:contain;object-position:center bottom;display:block;filter:saturate(0.98) contrast(1.02)}
 .leader-info h2{font-size:2.2rem;font-weight:400;margin-bottom:5px}
 .leader-info .title{color:var(--gold-light);font-size:1.8rem;font-weight:400;margin-bottom:24px;font-family:var(--font-heading)}
@@ -52,6 +52,6 @@
    .leader-profile,.quote-inner{grid-template-columns:1fr}
    .leader-profile{padding:32px;text-align:center;gap:28px}
    .quote-photo{width:220px;height:220px;margin:0 auto}
-   .leader-photo{max-width:260px;margin:0 auto;padding:16px 16px 0;min-height:auto}
+   .leader-photo{max-width:260px;margin:0 auto;min-height:auto}
    .stats-grid,.leadership-notes{grid-template-columns:1fr}
 }
