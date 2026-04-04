@@ -25,7 +25,7 @@
 .about-firm-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,0.82fr);gap:32px;align-items:center;padding-bottom:32px;border-bottom:1px solid rgba(17,28,48,0.06)}
 .about-intro-text h2{font-size:3rem;font-weight:400;color:#1a2035;line-height:1.08;margin-bottom:18px;position:relative}
 .about-intro-text h2::after{content:'';display:block;width:50px;height:3px;background:linear-gradient(90deg,var(--gold),var(--gold-bright));margin-top:14px}
-.about-intro-text p{font-size:1rem;color:#3a3f4d;line-height:1.9;margin-bottom:14px;max-width:700px}
+.about-intro-text p{font-size:1rem;color:#3a3f4d;line-height:1.9;margin-bottom:14px;max-width:700px; text-align: initial;}
 .about-firm-map{min-height:260px;border-left:1px solid rgba(17,28,48,0.06);background:url('../images/image12.jpeg') center/cover no-repeat;filter:saturate(0.38) brightness(1.08);position:relative}
 .about-firm-map::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(198,154,83,0.06),transparent 50%)}
 
@@ -36,7 +36,7 @@
 .value-item:hover::before{width:4px}
 .value-item:hover{box-shadow:0 4px 20px rgba(0,0,0,0.06);transform:translateX(4px)}
 .value-bar{width:3px;min-height:1.5rem;background:linear-gradient(180deg,var(--gold),var(--gold-dark));box-shadow:2px 0 12px rgba(198,154,83,0.18);flex-shrink:0;border-radius:2px}
-.value-item h4{font-size:0.95rem;color:#2b2a38;line-height:1.4;font-weight:500}
+.value-item h4{font-size:0.95rem;color:#2b2a38;line-height:1.4;font-weight:500; text-align: initial;}
 
 /* --- Mission & Vision Section --- */
 .mission-section{padding:0 0 56px;background:linear-gradient(180deg,#faf6f0 0%,#f5efe5 100%)}
@@ -46,7 +46,7 @@
 .mission-card::after{content:'';position:absolute;bottom:-40px;right:-40px;width:180px;height:180px;background:radial-gradient(circle,rgba(198,154,83,0.08),transparent 70%);pointer-events:none}
 .mission-card:hover{transform:translateY(-4px);box-shadow:0 16px 50px rgba(0,0,0,0.14)}
 .mission-card h2{font-size:1.55rem;color:#1a2035;font-weight:400;margin-bottom:16px;letter-spacing:0.5px}
-.mission-card p{color:#3a3f4d;line-height:1.88;font-size:0.94rem}
+.mission-card p{color:#3a3f4d;line-height:1.88;font-size:0.94rem; text-align: initial;}
 
 /* --- Geographic Reach Section --- */
 .reach-section{padding:20px 0 100px;background:linear-gradient(180deg,#f5efe5 0%,#fff 100%)}
@@ -55,7 +55,7 @@
 .reach-copy::after{content:'';position:absolute;top:40px;left:0;width:4px;height:40px;background:linear-gradient(180deg,var(--gold),var(--gold-bright))}
 .reach-copy{padding-left:28px}
 .reach-copy h2{font-size:2.1rem;font-weight:400;color:#1a2035;margin-bottom:18px;padding-left:16px}
-.reach-copy p{font-size:0.96rem;color:#3a3f4d;line-height:1.88;margin-bottom:14px;padding-left:16px}
+.reach-copy p{font-size:0.96rem;color:#3a3f4d;line-height:1.88;margin-bottom:14px;padding-left:16px; text-align: initial;}
 
 .reach-tags{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0;padding-left:16px}
 .reach-tag{padding:12px 24px;background:linear-gradient(135deg,#0b1220,#17253f);color:var(--gold-light);font-family:'Montserrat',sans-serif;font-size:0.74rem;letter-spacing:1.4px;text-transform:uppercase;font-weight:500;border:1px solid rgba(198,154,83,0.25);transition:var(--transition);position:relative;overflow:hidden}

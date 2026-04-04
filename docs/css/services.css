@@ -31,7 +31,7 @@
 .service-icon-img img{width:32px;height:32px;object-fit:contain;opacity:0.7}
 
 .service-body h3{font-size:1.22rem;font-weight:600;color:var(--dark-text);margin-bottom:8px;letter-spacing:0.2px}
-.service-body p{font-size:0.88rem;color:#6b7280;line-height:1.75;margin:0}
+.service-body p{font-size:0.88rem;color:#6b7280;line-height:1.75;margin:0; text-align: initial;}
 
 /* --- Images (right column) --- */
 .services-images{display:grid;grid-template-rows:1fr 1fr;min-height:100%}
@@ -51,7 +51,7 @@
 .service-panel{padding:34px;background:#fff;border:1px solid rgba(17,28,48,0.08);border-left:4px solid var(--gold);box-shadow:var(--shadow-sm);transition:var(--transition)}
 .service-panel:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
 .service-panel h2{font-size:1.5rem;font-weight:400;color:var(--dark-text);margin-bottom:14px}
-.service-panel p{font-size:0.94rem;color:#555c68;line-height:1.85;margin-bottom:18px}
+.service-panel p{font-size:0.94rem;color:#555c68;line-height:1.85;margin-bottom:18px; text-align: initial;}
 
 /* --- CTA --- */
 .services-cta{text-align:center;background:linear-gradient(180deg,#162339 0%,#0b1220 100%)!important;color:var(--white)}

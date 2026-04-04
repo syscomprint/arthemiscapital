@@ -59,8 +59,8 @@
 .transaction-card{min-height:150px;display:flex;flex-direction:column;justify-content:center;padding:18px;color:var(--white);background-size:cover;background-position:center;position:relative;border:1px solid rgba(255,255,255,0.18);box-shadow:var(--shadow-md); text-align: center;}
 .transaction-card::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,14,28,0.16) 0%,rgba(8,14,28,0.76) 100%)}
 .transaction-card > *{position:relative;z-index:1}
-.transaction-card .amount{font-size:2rem;font-weight:700;margin-bottom:4px}
-.transaction-card .desc{font-size:1rem;line-height:1.35;color:rgba(255,255,255,0.9)}
+.transaction-card .amount{font-size:2rem;font-weight:700;margin-bottom:4px; text-align: center;}
+.transaction-card .desc{font-size:1rem;line-height:1.35;color:rgba(255,255,255,0.9); text-align: center;}
 .card-port{background-image:url('../images/news/arthemiscapital_3.jpeg')}
 .card-highway{background-image:url('../images/news/arthemiscapital_4.jpeg')}
 .card-debt{background-image:url('../images/news/arthemiscapital_5.jpeg')}
@@ -73,12 +73,12 @@
 .why-item:last-child{border-right:none}
 .why-icon{width:56px;height:56px;margin:0 auto 12px;display:flex;align-items:center;justify-content:center}
 .why-icon img{max-width:100%;max-height:100%;filter:brightness(0) saturate(100%) invert(82%) sepia(23%) saturate(608%) hue-rotate(355deg) brightness(97%) contrast(90%)}
-.why-item h3{font-size:1rem;font-weight:500;line-height:1.4;color:var(--white)}
+.why-item h3{font-size:1rem;font-weight:500;line-height:1.4;color:var(--white); text-align: center;}
 
 .quote-section-home{padding:56px 0;background:#fff}
 .quote-section-home .quote-inner{display:grid;grid-template-columns:180px 1fr;gap:28px;align-items:center;max-width:900px;margin:0 auto}
 .quote-section-home .quote-photo img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center top;border:1px solid rgba(17,28,48,0.12);box-shadow:var(--shadow-md)}
-.quote-section-home .quote-text blockquote{font-size:2rem;line-height:1.45;color:var(--dark-text);font-style:italic;margin-bottom:18px;position:relative;padding-left:30px}
+.quote-section-home .quote-text blockquote{font-size:2rem;line-height:1.45;color:var(--dark-text);font-style:italic;margin-bottom:18px;position:relative;padding-left:30px; text-align: center;}
 .quote-section-home .quote-text blockquote::before{content:'\201C';position:absolute;left:-10px;top:-15px;font-size:5rem;color:var(--gold);font-family:Georgia,serif;line-height:1}
 .quote-section-home .quote-text blockquote::after{content:'\201D';font-size:5rem;color:var(--gold);font-family:Georgia,serif;line-height:0;vertical-align:bottom;margin-left:5px}
 
