@@ -13,12 +13,12 @@
 .leader-photo{width:100%;max-width:280px;background:radial-gradient(circle at top,rgba(255,255,255,0.16),rgba(255,255,255,0.03) 46%,rgba(8,14,28,0.12) 100%),linear-gradient(135deg,var(--navy-light),var(--navy-mid));border:1px solid rgba(224,176,106,0.55);display:flex;align-items:flex-end;justify-content:center;align-self:start}
 .leader-photo img{width:100%;aspect-ratio:4/5;object-fit:contain;object-position:center bottom;display:block;filter:saturate(0.98) contrast(1.02)}
 .leader-info h2{font-size:2.2rem;font-weight:400;margin-bottom:5px}
-.leader-info .title{color:var(--gold-light);font-size:1.8rem;font-weight:400;margin-bottom:24px;font-family:var(--font-heading)}
-.leader-info p{color:rgba(255,255,255,0.84);line-height:1.9;margin-bottom:16px;font-size:1rem}
+.leader-info .title{color:var(--gold-light);font-size:1.8rem;font-weight:400;margin-bottom:24px;font-family:var(--font-heading); text-align: initial;}
+.leader-info p{color:rgba(255,255,255,0.84);line-height:1.9;margin-bottom:16px;font-size:1rem; text-align: initial;}
 
 .prof-bg{padding:70px 0 58px;text-align:left;background:transparent;border-top:1px solid rgba(198,154,83,0.18);border-bottom:1px solid rgba(198,154,83,0.18)}
 .prof-bg h2{font-size:2.1rem;font-weight:400;color:var(--white);margin-bottom:14px}
-.prof-bg > .container > p{color:rgba(255,255,255,0.72);max-width:980px;margin:0 0 26px;font-size:0.98rem;line-height:1.85}
+.prof-bg > .container > p{color:rgba(255,255,255,0.72);max-width:980px;margin:0 0 26px;font-size:0.98rem;line-height:1.85; text-align: initial;}
 .experience-logos{display:flex;justify-content:flex-start;gap:18px;flex-wrap:wrap}
 .exp-logo{padding:10px 0;color:var(--gold-bright);font-weight:500;font-size:1rem;background:transparent;border:none}
 

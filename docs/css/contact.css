@@ -8,7 +8,7 @@
 .contact-panel,.office-panel{padding:38px;background:var(--white);border:none;box-shadow:none}
 .office-panel{background:linear-gradient(180deg,#fcfaf6 0%,#f7f3ed 100%);border-left:1px solid rgba(198,154,83,0.16)}
 .contact-panel h2,.office-panel h2{font-size:1.9rem;font-weight:400;color:var(--dark-text);margin-bottom:14px}
-.contact-panel p{color:var(--body-text);margin-bottom:24px;line-height:1.75}
+.contact-panel p{color:var(--body-text);margin-bottom:24px;line-height:1.75; text-align: initial;}
 
 .contact-form{display:grid;gap:18px}
 .contact-form label{display:grid;gap:8px}
@@ -20,8 +20,8 @@
 
 .office-item{padding:18px 0;border-bottom:1px solid rgba(19,37,69,0.08)}
 .office-item:last-child{border-bottom:none;padding-bottom:0}
-.office-item h3{font-size:0.84rem;text-transform:uppercase;letter-spacing:1.2px;color:var(--gold-dark);margin-bottom:8px}
-.office-item p,.office-item a{font-size:0.94rem;color:var(--body-text);line-height:1.75}
+.office-item h3{font-size:0.84rem;text-transform:uppercase;letter-spacing:1.2px;color:var(--gold-dark);margin-bottom:8px; text-align: initial;}
+.office-item p,.office-item a{font-size:0.94rem;color:var(--body-text);line-height:1.75; text-align: initial;}
 .office-item a:hover{color:var(--gold-dark)}
 
 .office-map{margin-top:18px;border:1px solid rgba(198,154,83,0.18);box-shadow:var(--shadow-md);overflow:hidden}

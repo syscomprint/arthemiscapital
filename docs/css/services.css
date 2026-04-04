@@ -30,7 +30,7 @@
 .service-icon-img{width:42px;height:42px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding-top:2px}
 .service-icon-img img{width:32px;height:32px;object-fit:contain;opacity:0.7}
 
-.service-body h3{font-size:1.22rem;font-weight:600;color:var(--dark-text);margin-bottom:8px;letter-spacing:0.2px}
+.service-body h3{font-size:1.22rem;font-weight:600;color:var(--dark-text);margin-bottom:8px;letter-spacing:0.2px; text-align: initial;}
 .service-body p{font-size:0.88rem;color:#6b7280;line-height:1.75;margin:0; text-align: initial;}
 
 /* --- Images (right column) --- */
@@ -50,7 +50,7 @@
 .services-bottom-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
 .service-panel{padding:34px;background:#fff;border:1px solid rgba(17,28,48,0.08);border-left:4px solid var(--gold);box-shadow:var(--shadow-sm);transition:var(--transition)}
 .service-panel:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
-.service-panel h2{font-size:1.5rem;font-weight:400;color:var(--dark-text);margin-bottom:14px}
+.service-panel h2{font-size:1.5rem;font-weight:400;color:var(--dark-text);margin-bottom:14px; text-align: initial;}
 .service-panel p{font-size:0.94rem;color:#555c68;line-height:1.85;margin-bottom:18px; text-align: initial;}
 
 /* --- CTA --- */
