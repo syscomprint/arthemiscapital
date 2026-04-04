@@ -8,7 +8,7 @@
 .hero-copy-centered{text-align:center;max-width:1040px;display:flex;flex-direction:column;align-items:center}
 .hero h1{font-size:3.2rem;line-height:1.05;font-weight:400;text-shadow:0 8px 30px rgba(0,0,0,0.35)}
 .hero-divider{border:none;border-top:1.5px solid #fff;width:100%;margin:18px auto;opacity:0.85}
-.hero-copy .section-banier{display:block;width:auto;border-bottom:none;padding-bottom:0;margin:0 0 14px}
+.hero-copy .section-banier{display:block;width:auto;border-bottom:none;padding-bottom:0;margin:0 0 14px; text-align: center;}
 .hero-tagline{display:inline-block;width:fit-content;max-width:min(100%,1040px);padding-top:18px;border-top:1.5px solid rgba(255,255,255,0.92);font-size:1.5rem;color:var(--gold-bright);margin-top:0;font-style:italic;text-shadow:0 3px 18px rgba(0,0,0,0.26)}
 .hero-stats-bar{width:100%;max-width:1040px;background:rgba(16,26,43,0.78);border:1px solid rgba(255,255,255,0.14);border-radius:0}
 .hero-stats{display:grid;grid-template-columns:repeat(4,1fr)}
